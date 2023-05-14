@@ -1,0 +1,29 @@
+{
+  "name": "cross-languages-formatter",
+  "version": "0.0.1",
+  "description": "A cross languages formatter library",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test:manual": "node ./test-cases/index.js",
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build ./test-output && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearfighting/cross-languages-formatter.git"
+  },
+  "author": "Florent Wenfeng Xing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bearfighting/cross-languages-formatter/issues"
+  },
+  "homepage": "https://github.com/bearfighting/cross-languages-formatter#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
